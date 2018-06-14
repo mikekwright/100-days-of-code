@@ -6,6 +6,8 @@
 1. [Join the #100DaysOfCode](https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4) freeCodeCamp Medium
 2. [Boot Up 2017 with the #100DaysOfCode Challenge](https://medium.freecodecamp.com/start-2017-with-the-100daysofcode-improved-and-updated-18ce604b237b) freeCodeCamp Medium 
 3. [Resistance, Habit Change and the #100DaysOfCode Movement](https://studywebdevelopment.com/100-days-of-code.html) StudyWebDevelopment Blog
+4. [The unlikely history of the #100DaysOfCode Challenge, and why you should try it in 2018](https://medium.freecodecamp.org/the-crazy-history-of-the-100daysofcode-challenge-and-why-you-should-try-it-for-2018-6c89a76e298d)
+5. [100 Days of Code Challenge: Commit, Learn and Have Fun](https://www.codingame.com/blog/100-days-of-code-challenge/)
 
 ### Podcasts
 
