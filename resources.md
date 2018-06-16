@@ -2,6 +2,10 @@
 
 [The #100DaysOfCode Official Site](http://100daysofcode.com/)
 
+### Scala Tools
+
+- Online web editor for scala - [Scastie](https://scastie.scala-lang.org)  
+
 ### Articles
 1. [Join the #100DaysOfCode](https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4) freeCodeCamp Medium
 2. [Boot Up 2017 with the #100DaysOfCode Challenge](https://medium.freecodecamp.com/start-2017-with-the-100daysofcode-improved-and-updated-18ce604b237b) freeCodeCamp Medium 

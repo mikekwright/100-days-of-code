@@ -66,6 +66,33 @@ and ML solution.
 
 [Table of Contents](#toc)
 
+----------
+<a name="day-2"></a>
+### Day 2: June 15, 2018
+
+**Today's Focus**: Scala refresher / environment setup
+
+**Details**:  
+
+Today was spent in 3 different areas.  
+
+1. Getting the scala jupyter notebook running on windows 10
+2. Keep refreshing scala skills
+ - [Codingame - Horse Racing Duals - E1](https://www.codingame.com/training/easy/horse-racing-duals)  
+ - [Codingame - Last Crusade - E1](https://www.codingame.com/training/medium/the-last-crusade-episode-1)
+3. Start to look for data sources that will work with my project
+
+**Thoughts:**:  Everytime I work with scala I keep forgetting how powerful
+of a language it is, and of course, how easy it is to write _clever_ code
+(that is completely unreadable).  But I do really like to focus exclusively
+on solving the problems in a functional style when possible.  
+
+**Link to work**: 
+- [Gist - Horse Racing Duals](https://gist.github.com/mikekwright/05f112c3ce8ff7dfd8e9e3d64d92f5e1)
+- [Gist - Last Crusade](https://gist.github.com/mikekwright/9a31a3ff02aa007d3ee32f3b66cd1566)   
+
+[Table of Contents](#toc)
+
 
 <!---
 Entry template
