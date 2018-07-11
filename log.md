@@ -6,7 +6,8 @@
 |:---:|:-----:|:---:|:-----:|
 |[Day 1](#day-1) **06/14/2018** | Scala refresher, Codingame Challenge |[Day 2](#day-2) **06/15/2018** | Codingame Challenge, DataSources search |
 |[Day 3](#day-3) **06/16/2018** | Environment setup with Scala Notebook, Breeze |[Day 4](#day-4) **06/17/2018** | Raspberrypi Kubernetes cluster setup (start)|
-|[Day 5](#day-5) **06/18/2018** | Raspberry Pi Model B+ Kub, Breeze Study | | |
+|[Day 5](#day-5) **06/18/2018** | Raspberry Pi Model B+ Kub, Breeze Study |[Day 6](#day-6) **06/19/2018** | Setting up Scala Notebook |
+|[Day 7](#day-7) **07/10/2018** | Catchup: MIL, Python Notebook, Initial Data Scrap | | |
 
 <!--- 
 |[Day 1](#day-1) **--/--/--**| Topics |[Day 2](#day-2) **--/--/--**| Topics |
@@ -251,6 +252,61 @@ about where I am.
 - [Weave for Pi B+](https://github.com/weaveworks/weave/issues/3314#issuecomment-396257270)
 
 [Table of Contents](#toc)
+
+----------
+<a name="day-6"></a>
+### Day 6: June 19, 2018
+
+**Today's Focus**: Setting up Scala notebook
+
+**Details**: So for the first thing I wanted to try to upgrade the scala notebook, this was done
+by taking the install script and adjusting it to work with ps1 over bash.  
+
+1. Install curl on windows  
+  - Remove the powershell alias - `remove-item alias:curl`
+  - Install the windows curl version - `choco install curl`
+2. Download coursier - Scala artifact fetcher (https://github.com/coursier/coursier#command-line)  
+  - `curl -L -o coursier https://git.io/vgvpD`
+
+**Thoughts:**  Getting the notebook up and running was far more difficult than I had expected. 
+
+**References**: [Curl on windows](http://thesociablegeek.com/azure/using-curl-in-powershell/)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-7"></a>
+### Day 7: July 10, 2018
+
+**Today's Focus**: Catchup -  MIL, Python Notebook, Initial Data Scrap 
+
+**Details**: So after playing with Scala for a bit and trying to actually get the 
+ML project up and running, there were some realizations.  One of the Data Scientist
+in the organization had a discussion with me about the process.  While it is true
+that the end goal is to provide a Scala capable solution (this has not changed)
+he recommended the process start using python for analysis and initial modeling and
+only implement the final (best) solution in scala.  
+
+So with that in mind these are the main pieces that have been implemented (granted not
+all was today, but today was WAY more than a single hour).  
+
+1. Finding the necessary data to train a supervised model was going to be very difficult
+  (when attempting an word based solution).  
+2. This notion lead to the idea of MIL (Multiple Instance Learning)
+3. I have started looking over different websites / sources that contain articles
+  that I can use
+  - Actually created scrapper for site [medicalnewstoday.com](https://medicalnewstoday.com)
+
+![Day 1 Image](https://raw.githubusercontent.com/mikekwright/100-days-of-code/master/images/day1_image.png)
+
+**Link to work**: [Web scraping notebook](https://github.com/mikekwright/simple-modeling-experiment/blob/master/notes/07-06-2018%20-%20Scraping%20Web%20Text.ipynb)
+
+**References**: 
+  - [MIL Wikipedia](https://en.wikipedia.org/wiki/Multiple_instance_learning)
+  - [Sample Python MIL Framework](https://github.com/jmarrietar/MILpy)
+
+[Table of Contents](#toc)
+
 
 
 <!---
