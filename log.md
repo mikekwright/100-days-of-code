@@ -4,13 +4,13 @@
 ### Table of Contents 
 |Day|Focus|Day|Focus|
 |:---:|:-----:|:---:|:-----:|
-|[Day 1](#day-1) **06/14/2018** | Scala refresher, Codingame Challenge |[Day 2](#day-2) **06/15/2018** | Codingame Challenge, DataSources search |
-|[Day 3](#day-3) **06/16/2018** | Environment setup with Scala Notebook, Breeze |[Day 4](#day-4) **06/17/2018** | Raspberrypi Kubernetes cluster setup (start)|
-|[Day 5](#day-5) **06/18/2018** | Raspberry Pi Model B+ Kub, Breeze Study |[Day 6](#day-6) **06/19/2018** | Setting up Scala Notebook |
-|[Day 7](#day-7) **07/10/2018** | Catchup: MIL, Python Notebook, Initial Data Scrap | | |
+|[Day 1:](#day-1) **06/14/2018** | Scala refresher, Codingame Challenge |[Day 2:](#day-2) **06/15/2018** | Codingame Challenge, DataSources search |
+|[Day 3:](#day-3) **06/16/2018** | Environment setup with Scala Notebook, Breeze |[Day 4:](#day-4) **06/17/2018** | RaspberryPi Kubernetes cluster (I) |
+|[Day 5:](#day-5) **06/18/2018** | Raspberry Pi Model B+ Kub, Breeze Study |[Day 6:](#day-6) **06/19/2018** | Setting up Scala Notebook |
+|[Day 7:](#day-7) **07/10/2018** | Catchup: MIL, Python Notebook, Initial Data Scrap |[Day 8:](#day-8) **07/11/2018** | RaspberryPi Kubernetes cluster (2) |
 
 <!--- 
-|[Day 1](#day-1) **--/--/--**| Topics |[Day 2](#day-2) **--/--/--**| Topics |
+|[Day 1:](#day-1) **--/--/--**| Topics |[Day 2:](#day-2) **--/--/--**| Topics |
 --->
 
 ----------
@@ -297,8 +297,6 @@ all was today, but today was WAY more than a single hour).
   that I can use
   - Actually created scrapper for site [medicalnewstoday.com](https://medicalnewstoday.com)
 
-![Day 1 Image](https://raw.githubusercontent.com/mikekwright/100-days-of-code/master/images/day1_image.png)
-
 **Link to work**: [Web scraping notebook](https://github.com/mikekwright/simple-modeling-experiment/blob/master/notes/07-06-2018%20-%20Scraping%20Web%20Text.ipynb)
 
 **References**: 
@@ -307,6 +305,22 @@ all was today, but today was WAY more than a single hour).
 
 [Table of Contents](#toc)
 
+----------
+<a name="day-8"></a>
+### Day 8: July 11, 2018
+
+**Today's Focus**: RaspberryPi Kubernetes cluster (II) and Home Assistant
+
+**Details**: Today was a bit of a break, I spent my time going back over the raspberry kubernetes cluster
+especially on the model 3 B+.  This time I actually used the flannel CNI which worked better at this
+time compared to the weave.  I also installed (but have not configured) traefic as a reverse proxy in
+kubernetes.  I also spent time getting home assistant and my z-wave usb dongle working on one of the boxes. 
+
+**References**: 
+  - [Traefic](https://traefik.io/)
+  - [Home Assistant](https://www.home-assistant.io/)
+
+[Table of Contents](#toc)
 
 
 <!---
