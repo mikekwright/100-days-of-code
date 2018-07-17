@@ -8,6 +8,10 @@
 |[Day 3:](#day-3) **06/16/2018** | Environment setup with Scala Notebook, Breeze |[Day 4:](#day-4) **06/17/2018** | RaspberryPi Kubernetes cluster (I) |
 |[Day 5:](#day-5) **06/18/2018** | Raspberry Pi Model B+ Kub, Breeze Study |[Day 6:](#day-6) **06/19/2018** | Setting up Scala Notebook |
 |[Day 7:](#day-7) **07/10/2018** | Catchup: MIL, Python Notebook, Initial Data Scrap |[Day 8:](#day-8) **07/11/2018** | RaspberryPi Kubernetes cluster (2) |
+|[Day 9:](#day-9) **07/12/2018** | Work on Dataquest Path |[Day 10:](#day-10) **07/13/2018** | Data Scrap for website `news-medical` |
+|[Day 11:](#day-11) **07/14/2018** | Work on Dataquest Path |[Day 12:](#day-12) **07/15/2018** | Coursera Course Machine learning |
+|[Day 13:](#day-13) **07/16/2018** | Implement Gradient Descent by hand |  |  |
+
 
 <!--- 
 |[Day 1:](#day-1) **--/--/--**| Topics |[Day 2:](#day-2) **--/--/--**| Topics |
@@ -319,6 +323,85 @@ kubernetes.  I also spent time getting home assistant and my z-wave usb dongle w
 **References**: 
   - [Traefic](https://traefik.io/)
   - [Home Assistant](https://www.home-assistant.io/)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-9"></a>
+### Day 9: July 12, 2018
+
+**Today's Focus**: Work on Dataquest Path
+
+**Details**: Half the purpose of this project is to help me increase my overall understanding of
+machine learning and how to figure out for myself how to overcome stumbling blocks.  To that end
+I am going through many different sources to try to increase my knowledge. I have been going through
+the [Dataquest "Data Scientist In Python Path"](https://www.dataquest.io).  Today I worked and
+completed Section 7 - __Advanced Python and Computer Science__.   
+
+**References**: 
+  - [Dataquest](https://www.dataquest.io)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-10"></a>
+### Day 10: July 13, 2018
+
+**Today's Focus**: Data Scrap for website `news-medical`
+
+**Details**: Today I spent the day gather more data by scraping more medical news
+articles from the website [https://www.news-medical.net/medical/news](https://www.news-medical.net/medical/news).  
+
+**References**: 
+  - [Jupyter notebook](https://github.com/mikekwright/simple-modeling-experiment/blob/master/notes/07-13-2018%20-%20Scraping%20more%20Medical.ipynb)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-11"></a>
+### Day 11: July 14, 2018
+
+**Today's Focus**: Work on Dataquest Path
+
+**Details**: Today was more work on the Dataquest Path, Worked on step 3 which is 
+`The Command Line`.  This wasn't anything really new for me... I am very familiar
+with this stuff as I use command line on windows and linux/mac daily.  
+
+**References**: 
+  - [Dataquest](https://www.dataquest.io)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-12"></a>
+### Day 12: July 15, 2018
+
+**Today's Focus**: Coursera Machine Learning Course
+
+**Details**: I know that a number of people have made mention of Andrew Ng's Machine Learning
+course from coursera.  Today I actually decided to go through the course. 
+
+**References**: 
+  - [Machine Learning Course - Coursera](https://www.coursera.org/learn/machine-learning)
+
+[Table of Contents](#toc)
+
+----------
+<a name="day-13"></a>
+### Day 13: July 16, 2018
+
+**Today's Focus**: Implement Gradient Descent by hand
+
+**Details**: In Week 1 / 2 of the coursera course Andrew Ng talks about Gradient
+Descent.  I always like to make sure that my understanding is solid by implementing
+the discussed topic in a programming language.  To that end I created a notebook 
+that does a python, naive implementation of Gradient Descent.  My hope for tomorrow
+is to get a better grasp of numpy at the same time by converting the solution to a
+numpy solution. (I believe the term is to vectorize the solution).
+
+**References**: 
+  - [Machine Learning Course - Coursera](https://www.coursera.org/learn/machine-learning)
+  - [Jupyter notebook](https://github.com/mikekwright/simple-modeling-experiment/blob/master/notes/07-16-2018%20-%20Gradient%20Descent%20Impl.ipynb)
 
 [Table of Contents](#toc)
 
